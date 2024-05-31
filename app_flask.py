@@ -191,6 +191,7 @@ data = {
     }
    ]
 }
+
 @app.route('/api/getData', methods=['GET'])
 def getData():
     return jsonify(data)
